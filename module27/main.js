@@ -27,4 +27,14 @@ function sum(number1, number2){
     return number1 + number2
 }
 
-console.log(sum(25, 5));configconfiug
+console.log(sum(25, 5));
+
+function toCelcius(f){
+    return(5/9) * (f - 32);
+ }
+ console.log("54 fahrenhite is equal to "+toCelcius(54)+" celsius")
+
+
+var result = toCelcius(54);
+console.log("54 fahrenhite is equal to "+result+" celsius")
+
