@@ -15,3 +15,10 @@ var school = "Digital School"
 console.log('My schools nname is ${school}')
 
 console.log("My schools nname is" + school)
+
+
+function showMessage() {
+    alert("This message is inside a function");
+}
+
+showMessage();
